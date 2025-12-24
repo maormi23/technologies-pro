@@ -1,0 +1,79 @@
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: AliceBlue;
+    color: black;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    min-height: 100vh;
+}
+
+#main-header {
+    background-color: steelblue;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#main-header a {
+    color: white;
+}
+
+.question-box {
+    background-color: white;
+    border: 1px solid steelblue;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 35px auto;
+    max-width: 850px;
+    box-shadow: 15px 15px 20px grey;
+}
+
+.question-box h2 {
+    margin-top: 0;
+    color: white;
+    border-right: 5px solid steelblue;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: steelblue;
+	box-shadow: 5px 5px 10px grey;
+}
+
+a {
+    color: steelblue;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+.list {
+    line-height: 1.8;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+	color: black;
+}
+
+.highlight {
+    color: blue;
+}
+
+.bio-img {
+    width: 120px;
+    height: 110px; 
+    float: left; 
+	margin-left: 5px; 
+    margin-bottom: 5px; 
+	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
