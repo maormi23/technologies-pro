@@ -247,6 +247,30 @@ button[type="submit"]:hover {
     display: none;
 }
 
+.back-link-container {
+    text-align: center;
+    margin-top: 25px;
+    border-top: 1px solid #eee; /* קו הפרדה עדין מעל הכפתור */
+    padding-top: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    color: #1f7a5c;
+    background-color: transparent;
+    border: 2px solid #1f7a5c;
+    padding: 10px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-back:hover {
+    background-color: #e6f2ee;
+    color: #0f3d2e;
+}
+
 
 
 
