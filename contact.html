@@ -40,11 +40,9 @@
             background-color: #34495e;
         }
 
-        /* --- כאן הקסם קורה (ללא JS) --- */
-
-        /* 1. עיצוב הודעת ההצלחה (מוסתרת בהתחלה) */
+        
         #sent-message {
-            display: none; /* מוסתר כברירת מחדל */
+            display: none; 
             background-color: #d4edda;
             color: #155724;
             border: 1px solid #c3e6cb;
@@ -56,7 +54,7 @@
             font-size: 1.2em;
         }
         
-        /* כפתור חזרה לטופס שמופיע רק אחרי שליחה */
+
         #back-btn {
             display: inline-block;
             margin-top: 15px;
@@ -65,19 +63,17 @@
             border-bottom: 1px solid #2c3e50;
         }
 
-        /* 2. כאשר הכתובת היא #sent-message (אחרי לחיצה על שלח) */
-        /* הצג את ההודעה */
+
         #sent-message:target {
             display: block;
         }
 
-        /* 3. כאשר ההודעה מוצגת, הסתר את הטופס שנמצא אחריה */
-        /* הסימן ~ אומר "אלמנט שנמצא אחרי באותה רמה" */
+
         #sent-message:target ~ form {
             display: none;
         }
         
-        /* הסתרת הכותרת הקטנה וההסבר כשהטופס נשלח */
+
         #sent-message:target ~ .intro-text {
             display: none;
         }
