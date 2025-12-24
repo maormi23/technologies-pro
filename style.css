@@ -137,8 +137,7 @@ footer {
 }
 
 .logo {
-    height: 48px !important;
-    width: auto !important;
-    max-width: none !important;
+    height: 48px;
+    width: auto;
 }
 
