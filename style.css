@@ -21,14 +21,21 @@ body {
     font-weight: 600;
 }
 
+.header-inner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 #main-header nav {
-    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    margin-top: 0;
 }
 
 #main-header a {
     color: #e6f2ee;
     text-decoration: none;
-    margin-left: 18px;
     font-size: 0.95rem;
 }
 
@@ -40,6 +47,11 @@ body {
     font-weight: 600;
     border-bottom: 2px solid #a7f3d0;
     padding-bottom: 3px;
+}
+
+#main-header .logo {
+    height: 64px;
+    width: auto;
 }
 
 .page-container {
@@ -129,15 +141,3 @@ footer {
     padding: 28px 15px;
     font-size: 0.85rem;
 }
-
-.header-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    height: 48px;
-    width: auto;
-}
-
