@@ -129,3 +129,13 @@ footer {
     padding: 28px 15px;
     font-size: 0.85rem;
 }
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 42px;
+}
