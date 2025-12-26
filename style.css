@@ -272,6 +272,77 @@ button[type="submit"]:hover {
 }
 
 
+.process-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+}
+
+.steps-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.step-card {
+    flex: 1;
+    min-width: 220px;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #e6a635; 
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 auto 15px auto;
+}
+
+.step-card h3 {
+    margin-bottom: 10px;
+    color: #0d2c56;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.radio-group {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+
 
 
 
