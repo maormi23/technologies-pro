@@ -589,4 +589,38 @@ button[type="submit"]:hover {
 }
 
 
+.form-actions {
+    display: flex;
+    gap: 15px; 
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1f7a5c; 
+    color: #1f7a5c; 
+    background-color: transparent; 
+    padding: 14px 20px;
+    border-radius: 12px; 
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    flex: 1; 
+    text-align: center;
+}
+
+.btn-secondary:hover {
+    background-color: #e6f2ee; 
+    color: #0f3d2e;
+}
+
+
+.submit-btn {
+    flex: 2;
+    margin-top: 0 !important; 
+    width: auto !important; 
+}
+
 
