@@ -2,30 +2,138 @@
 <html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>ReBiz - מוכרים</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מוכרים | ReBiz B2B</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-<header id="main-header">
-    <h1>ReBiz</h1>
-    <nav>
-        <a href="index.html">איך זה עובד</a>
-        <a href="sellers.html">מוכרים</a>
-        <a href="buyers.html" class="active">קונים</a>
-        <a href="contact.html">צור קשר</a>
-    </nav>
-</header>
+    <header id="main-header">
+        <div class="header-inner">
+            <img src="images/logo.png" alt="ReBiz Logo" class="logo">
+            <nav>
+                <a href="index.html">איך זה עובד</a>
+                <a href="sellers.html" class="active">מוכרים</a>
+                <a href="buyers.html">קונים</a>
+                <a href="contact.html">צור קשר</a>
+            </nav>
+        </div>
+    </header>
 
-<main class="page-container">
-    <section class="card">
-        <h2>מוכרים</h2>
+    <section class="hero-section">
+        <div class="container">
+            <h1>הופכים ציוד עסקי להון נזיל – במהירות</h1>
+            <p>נסגרים? מצטמצמים? מחדשים מלאי? ReBiz היא הזירה המקצועית למכירת ציוד עסקי, ריהוט ומלאי לקונים רציניים.</p>
+            <a href="#seller-form" class="cta-button">התחל למכור עכשיו</a>
+        </div>
     </section>
-</main>
 
-<footer>
-    כל הזכויות שמורות ל-ReBiz | ת.ז: 211751227 · 207716341 · 323911842 · 314777988
-</footer>
+    <section class="process-section">
+        <div class="container">
+            <h2>תהליך המכירה ב-ReBiz</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="icon-circle"><i class="fas fa-camera"></i></div>
+                    <h3>1. העלאת הנכסים</h3>
+                    <p>מעלים תמונות וסרטונים של הציוד, מוסיפים פירוט טכני, כמות, ומצב האחריות.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon-circle"><i class="fas fa-rocket"></i></div>
+                    <h3>2. בחירת מסלול חשיפה</h3>
+                    <p>פרסום בסיסי חינם או חבילות קידום ("מודעה מובלטת") למכירה דחופה ומהירה בראש התוצאות.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon-circle"><i class="fas fa-comments"></i></div>
+                    <h3>3. מו"מ וסגירה</h3>
+                    <p>תקשורת ישירה מול קונים בצ'אט, ניהול משא ומתן וקבלת תשלום מאובטח.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon-circle"><i class="fas fa-truck-loading"></i></div>
+                    <h3>4. לוגיסטיקה ושילוח</h3>
+                    <p>אפשרות לחיבור עם ספקי הובלה למעבר סחורה מהיר ויעיל (בתוספת עמלה).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section bg-white">
+        <div class="container">
+            <h2>למה למכור דווקא אצלנו?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>🎯 קהל יעד מדויק (B2B)</h3>
+                    <p>במקום לפרסם בלוחות כלליים, כאן תמצאו מסעדנים, קמעונאים וחברות הייטק שמחפשים בדיוק את הציוד שלכם.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>♻️ כלכלה מעגלית (Reuse)</h3>
+                    <p>קידום שימוש חוזר במשאבים תוך החזרת חלק מההשקעה שלכם בציוד.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ מימוש מהיר</h3>
+                    <p>פלטפורמה שמקצרת תהליכים ומאפשרת לעסקים להיפטר מציוד במהירות ("Liquidation").</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="seller-form" class="seller-form-section">
+        <div class="container">
+            <h2>יש לכם ציוד למכירה? בואו נתחיל</h2>
+            <p>מלאו את הפרטים לאימות ראשוני ונתחיל בתהליך העלאת המודעה.</p>
+            
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>שם מלא</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>שם העסק</label>
+                        <input type="text" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>סיבת המכירה</label>
+                    <select required>
+                        <option value="" disabled selected>בחר סיבה...</option>
+                        <option value="closing">סגירת עסק (Liquidation)</option>
+                        <option value="downsizing">צמצום פעילות</option>
+                        <option value="renewal">חידוש מלאי / שדרוג</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>סוג הציוד העיקרי</label>
+                    <select required>
+                        <option value="restaurant">ציוד למסעדות ומטבחים</option>
+                        <option value="retail">ריהוט וציוד לחנויות (קמעונאות)</option>
+                        <option value="office">ציוד משרדי וריהוט</option>
+                        <option value="hitech">מחשוב והייטק</option>
+                        <option value="other">אחר</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>האם מעוניין במסלול קידום מודעה?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="promo-yes" name="promo" value="yes">
+                        <label for="promo-yes">כן, אני רוצה למכור דחוף (בתשלום)</label>
+                        <br>
+                        <input type="radio" id="promo-no" name="promo" value="no" checked>
+                        <label for="promo-no">לא, מודעה בסיסית (חינם)</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">המשך להעלאת תמונות</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ReBiz B2B - Liquidation & Renewal</p>
+    </footer>
 
 </body>
 </html>
