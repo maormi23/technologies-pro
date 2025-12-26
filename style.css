@@ -565,6 +565,28 @@ button[type="submit"]:hover {
 }
 
 
+.checkbox-group {
+    display: flex;     
+    align-items: center; 
+    gap: 12px;          
+    margin-top: 15px;
+}
+
+.checkbox-group label {
+    margin-bottom: 0;    
+    font-weight: 400;    
+    cursor: pointer;    
+    display: inline-block;
+}
+
+
+.checkbox-group input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    accent-color: #1f7a5c; 
+    cursor: pointer;
+}
 
 
 
