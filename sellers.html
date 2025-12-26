@@ -22,10 +22,12 @@
     </header>
 
     <section class="hero-section">
-        <div class="container">
-            <h1>הופכים ציוד עסקי להון נזיל – במהירות</h1>
-            <p>נסגרים? מצטמצמים? מחדשים מלאי? ReBiz היא הזירה המקצועית למכירת ציוד עסקי, ריהוט ומלאי לקונים רציניים.</p>
-            <a href="#seller-form" class="cta-button">התחל למכור עכשיו</a>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>הופכים ציוד עסקי להון נזיל – במהירות</h1>
+                <p>נסגרים? מצטמצמים? מחדשים מלאי? ReBiz היא הזירה המקצועית למכירת ציוד עסקי, ריהוט ומלאי לקונים רציניים.</p>
+                <a href="#seller-form" class="cta-button">התחל למכור עכשיו</a>
+            </div>
         </div>
     </section>
 
@@ -36,42 +38,22 @@
                 <div class="step-card">
                     <div class="icon-circle"><i class="fas fa-camera"></i></div>
                     <h3>1. העלאת הנכסים</h3>
-                    <p>מעלים תמונות וסרטונים של הציוד, מוסיפים פירוט טכני, כמות, ומצב האחריות.</p>
+                    <p>מעלים תמונות ופירוט טכני בקלות ובמהירות.</p>
                 </div>
                 <div class="step-card">
                     <div class="icon-circle"><i class="fas fa-rocket"></i></div>
-                    <h3>2. בחירת מסלול חשיפה</h3>
-                    <p>פרסום בסיסי חינם או חבילות קידום ("מודעה מובלטת") למכירה דחופה ומהירה בראש התוצאות.</p>
+                    <h3>2. בחירת מסלול</h3>
+                    <p>בוחרים בין פרסום חינם למסלול קידום מואץ.</p>
                 </div>
                 <div class="step-card">
                     <div class="icon-circle"><i class="fas fa-comments"></i></div>
                     <h3>3. מו"מ וסגירה</h3>
-                    <p>תקשורת ישירה מול קונים בצ'אט, ניהול משא ומתן וקבלת תשלום מאובטח.</p>
+                    <p>סוגרים עסקה מול קונים מאומתים בצ'אט.</p>
                 </div>
                 <div class="step-card">
                     <div class="icon-circle"><i class="fas fa-truck-loading"></i></div>
-                    <h3>4. לוגיסטיקה ושילוח</h3>
-                    <p>אפשרות לחיבור עם ספקי הובלה למעבר סחורה מהיר ויעיל (בתוספת עמלה).</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="features-section bg-white">
-        <div class="container">
-            <h2>למה למכור דווקא אצלנו?</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <h3>🎯 קהל יעד מדויק (B2B)</h3>
-                    <p>במקום לפרסם בלוחות כלליים, כאן תמצאו מסעדנים, קמעונאים וחברות הייטק שמחפשים בדיוק את הציוד שלכם.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>♻️ כלכלה מעגלית (Reuse)</h3>
-                    <p>קידום שימוש חוזר במשאבים תוך החזרת חלק מההשקעה שלכם בציוד.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>⚡ מימוש מהיר</h3>
-                    <p>פלטפורמה שמקצרת תהליכים ומאפשרת לעסקים להיפטר מציוד במהירות ("Liquidation").</p>
+                    <h3>4. שילוח</h3>
+                    <p>אפשרות לחיבור עם מובילים לביצוע המעבר.</p>
                 </div>
             </div>
         </div>
@@ -79,60 +61,60 @@
 
     <section id="seller-form" class="seller-form-section">
         <div class="container">
-            <h2>יש לכם ציוד למכירה? בואו נתחיל</h2>
-            <p>מלאו את הפרטים לאימות ראשוני ונתחיל בתהליך העלאת המודעה.</p>
-            
-            <form class="contact-form">
-                <div class="form-row">
+            <div class="form-wrapper">
+                <h2>בואו נתחיל</h2>
+                <p>מלאו את הפרטים לאימות ראשוני</p>
+                
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>שם מלא</label>
+                            <input type="text" placeholder="ישראל ישראלי" required>
+                        </div>
+                        <div class="form-group">
+                            <label>שם העסק</label>
+                            <input type="text" placeholder="שם החברה בע''מ" required>
+                        </div>
+                    </div>
+
                     <div class="form-group">
-                        <label>שם מלא</label>
-                        <input type="text" required>
+                        <label>סיבת המכירה</label>
+                        <div class="select-wrapper">
+                            <select required>
+                                <option value="" disabled selected>בחר סיבה...</option>
+                                <option value="closing">סגירת עסק </option>
+                                <option value="downsizing">צמצום פעילות</option>
+                                <option value="renewal">חידוש מלאי / שדרוג</option>
+                            </select>
+                        </div>
                     </div>
+
                     <div class="form-group">
-                        <label>שם העסק</label>
-                        <input type="text" required>
+                        <label>סוג הציוד העיקרי</label>
+                        <div class="select-wrapper">
+                            <select required>
+                                <option value="restaurant">ציוד למסעדות ומטבחים</option>
+                                <option value="retail">ריהוט וציוד לחנויות</option>
+                                <option value="office">ציוד משרדי וריהוט</option>
+                                <option value="hitech">מחשוב והייטק</option>
+                                <option value="other">אחר</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
 
-                <div class="form-group">
-                    <label>סיבת המכירה</label>
-                    <select required>
-                        <option value="" disabled selected>בחר סיבה...</option>
-                        <option value="closing">סגירת עסק (Liquidation)</option>
-                        <option value="downsizing">צמצום פעילות</option>
-                        <option value="renewal">חידוש מלאי / שדרוג</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label>סוג הציוד העיקרי</label>
-                    <select required>
-                        <option value="restaurant">ציוד למסעדות ומטבחים</option>
-                        <option value="retail">ריהוט וציוד לחנויות (קמעונאות)</option>
-                        <option value="office">ציוד משרדי וריהוט</option>
-                        <option value="hitech">מחשוב והייטק</option>
-                        <option value="other">אחר</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label>האם מעוניין במסלול קידום מודעה?</label>
-                    <div class="radio-group">
-                        <input type="radio" id="promo-yes" name="promo" value="yes">
-                        <label for="promo-yes">כן, אני רוצה למכור דחוף (בתשלום)</label>
-                        <br>
-                        <input type="radio" id="promo-no" name="promo" value="no" checked>
-                        <label for="promo-no">לא, מודעה בסיסית (חינם)</label>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="promo-check" name="promo">
+                        <label for="promo-check">אני מעוניין לשמוע על קידום מודעה בתשלום (מכירה דחופה)</label>
                     </div>
-                </div>
 
-                <button type="submit" class="submit-btn">המשך להעלאת תמונות</button>
-            </form>
+                    <button type="submit" class="submit-btn">המשך לשלב הבא</button>
+                </form>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 ReBiz B2B - Liquidation & Renewal</p>
+        <p>&copy; 2024 ReBiz B2B - כל הזכויות שמורות</p>
     </footer>
 
 </body>
